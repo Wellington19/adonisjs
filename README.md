@@ -43,9 +43,12 @@ API Adonis Js aplicando conceitos de CRUD, autenticação JWT, recuperação de 
 Clone ou baixe o projeto e abra com editor de sua prefêrencia, lembre-se de executar o comando `npm install` no seu terminal para instalar todas as dependências.
 
 <h4 align="center">
+
   ⚠️ Pegar o arquivo `.env.example` renomear para `.env` e configurar a conexão com banco de dados e Redis para fila, serviço para envio de email e o DSN do Sentry para receber notificação de exceções da API ⚠️
 
+
   ⚠️ Antes de executar a aplicação você precisa ter o postgres e o redis rodando executar o comando `adonis migration:run` e `adonis kue:listen` para criação do banco de dados e fila respectivamente ⚠️
+  
 
   ⚠️ Antes de executar a aplicação você precisa ter o postgres rodando executar o comando `adonis migration:run` para criação do banco de dados ⚠️
 </h4>
